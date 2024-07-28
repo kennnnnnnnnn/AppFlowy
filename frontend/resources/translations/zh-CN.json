@@ -365,6 +365,10 @@
     "accountPage": {
       "menuLabel": "我的账户",
       "title": "我的账户",
+      "general": {
+        "title": "帐户名称和个人头像",
+        "changeProfilePicture": "修改头像"
+      },
       "email": {
         "title": "邮箱",
         "actions": {
@@ -402,7 +406,8 @@
       },
       "theme": {
         "title": "主题",
-        "description": "选择预设主题，或上传你自己的自定义主题。"
+        "description": "选择预设主题，或上传你自己的自定义主题。",
+        "uploadCustomThemeTooltip": "上传自定义主题"
       },
       "workspaceFont": {
         "title": "工作区字体"
@@ -411,7 +416,8 @@
         "title": "文字方向",
         "leftToRight": "从左到右",
         "rightToLeft": "从右到左",
-        "auto": "自动"
+        "auto": "自动",
+        "enableRTLItems": "工具栏启用文字方向配置"
       },
       "layoutDirection": {
         "title": "布局方向",
@@ -420,6 +426,7 @@
       },
       "dateTime": {
         "title": "日期 & 时间",
+        "example": "{} {} ({})",
         "24HourTime": "24 小时制",
         "dateFormat": {
           "label": "日期格式",
@@ -474,6 +481,7 @@
         "descriptionEncrypted": "你的数据已加密。",
         "action": "加密数据",
         "dialog": {
+          "title": "加密您的所有数据？",
           "description": "加密所有数据将保证数据安全。此操作无法撤消。您确定要继续吗？"
         }
       },
@@ -484,6 +492,23 @@
           "description": "清除缓存会导致加载时重新下载图像和字体。此操作不会删除或修改你的数据。",
           "successHint": "缓存已清除！"
         }
+      }
+    },
+    "shortcutsPage": {
+      "menuLabel": "快捷操作",
+      "title": "快捷操作",
+      "searchHint": "搜索",
+      "actions": {
+        "resetDefault": "默认值"
+      },
+      "errorPage": {
+        "message": "加载快捷操作失败：{}",
+        "howToFix": "请再试一次，如果问题仍然存在，请通过GitHub联系。"
+      },
+      "resetDialog": {
+        "title": "重置快捷操作",
+        "description": "这将会使所有快捷操作重置为默认值，您以后无法撤销此操作，您确定要继续吗？",
+        "buttonLabel": "重置"
       }
     },
     "planPage": {
@@ -1089,8 +1114,8 @@
         "defaultColor": "默认"
       },
       "image": {
-        "copiedToPasteBoard": "图片链接已复制到剪贴板",
-        "addAnImage": "添加图像"
+        "addAnImage": "添加图像",
+        "copiedToPasteBoard": "图片链接已复制到剪贴板"
       },
       "urlPreview": {
         "copiedToPasteBoard": "链接已复制到剪贴板"

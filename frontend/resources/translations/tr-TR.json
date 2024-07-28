@@ -957,8 +957,8 @@
         "depth": "Derinlik"
       },
       "image": {
-        "copiedToPasteBoard": "Resim bağlantısı panoya kopyalandı",
         "addAnImage": "Bir resim ekle",
+        "copiedToPasteBoard": "Resim bağlantısı panoya kopyalandı",
         "imageUploadFailed": "Resim yükleme başarısız"
       },
       "urlPreview": {
